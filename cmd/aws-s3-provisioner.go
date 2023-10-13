@@ -52,7 +52,7 @@ const (
 	httpsPort        = 443
 	provisionerName  = "aws-s3.io/bucket"
 	regionInsert     = "<REGION>"
-	s3Hostname       = "s3-" + regionInsert + ".amazonaws.com"
+	s3Hostname       = "object.storage." + regionInsert + ".onstackit.cloud"
 	s3BucketArn      = "arn:aws:s3:::%s"
 	policyArn        = "arn:aws:iam::%s:policy/%s"
 	createBucketUser = false
